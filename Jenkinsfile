@@ -12,8 +12,8 @@ pipeline {
                 echo my.slack_handle("Mark Turner")
                 //my.otherMethod()
                 script { 
-                    log.info 'Starting'
-                    log.warning 'Nothing to do!'
+                    //log.info 'Starting'
+                    //log.warning 'Nothing to do!'
                 }
             }
         }
