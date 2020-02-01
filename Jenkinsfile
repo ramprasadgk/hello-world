@@ -10,7 +10,7 @@ pipeline {
                 echo my("Mark Turner")
                 // or
                 echo my.slack_handle("Mark Turner")
-                my.otherMethod()
+                //my.otherMethod()
                 script { 
                     log.info 'Starting'
                     log.warning 'Nothing to do!'
