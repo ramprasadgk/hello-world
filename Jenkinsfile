@@ -7,10 +7,10 @@ pipeline {
             steps {
                 // log.info 'Starting' 
 
-                echo myFile("Mark Turner")
+                echo my("Mark Turner")
                 // or
-                echo myFile.slack_handle("Mark Turner")
-                myFile.otherMethod()
+                echo my.slack_handle("Mark Turner")
+                my.otherMethod()
                 script { 
                     log.info 'Starting'
                     log.warning 'Nothing to do!'
