@@ -1,7 +1,7 @@
     @Library('test') _
 
     pipeline {
-        agent node
+        agent any
         stages{
             stage ('git') {
                 steps {
