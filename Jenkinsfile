@@ -5,7 +5,7 @@
         agent any
         stages{
             stage ('git') {
-                steps {
+                
                     // log.info 'Starting' 
 
                    
@@ -18,7 +18,7 @@
                     //echo prime.parallelize(2)
                     //echo prime.parallelize(4)
                     
-                }
+                
             }
         }
     }
