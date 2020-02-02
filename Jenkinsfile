@@ -1,5 +1,5 @@
     @Library('test') _
-    import org.paya.*
+    import org.paya.jenkinslib.*
 
     pipeline {
         agent any
