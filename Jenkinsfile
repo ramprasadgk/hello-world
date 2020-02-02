@@ -14,6 +14,7 @@
                     echo my.slack_handle("Mark Turner")
                     echo prime.parallelize(5)
                     echo prime.parallelize(2)
+                    echo prime.parallelize(4)
                     
                 }
             }
