@@ -13,7 +13,7 @@
                     //echo my("Mark Turner")
                     // or
                     echo my.slack_handle("Mark Turner")
-                    echo GetCommitInfo.getCommitId()
+                    echo new GetCommitInfo().getCommitId()
                     //echo prime.parallelize(5)
                     //echo prime.parallelize(2)
                     //echo prime.parallelize(4)
