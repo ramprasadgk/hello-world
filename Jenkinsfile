@@ -9,7 +9,7 @@
                     // log.info 'Starting' 
 
                 steps{
-                    echo new GetCommitInfo().isBranchIndexingCause()
+                    echo new GetCommitInfo().isBranchIndexingCause().toString()
                 
                     //echo my("Mark Turner")
                     // or
