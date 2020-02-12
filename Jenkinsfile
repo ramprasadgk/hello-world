@@ -8,7 +8,7 @@
                 
                     // log.info 'Starting' 
 
-                   
+                steps{
                 
                     //echo my("Mark Turner")
                     // or
@@ -17,7 +17,7 @@
                     //echo prime.parallelize(5)
                     //echo prime.parallelize(2)
                     //echo prime.parallelize(4)
-                    
+                }
                 
             }
         }
