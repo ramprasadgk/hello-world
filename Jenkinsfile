@@ -14,8 +14,9 @@
                     echo new GetCommitInfo().isBranchIndexingCause().toString()
                     
                     if (new GetCommitInfo().isBranchIndexingCause()){
-                        currentBuild.result = 'ABORT'
-                        return
+                        currentBuild.result = 'ABORTED'
+                        error('Stopping early…')
+                        
                     }
                 
                     //echo my("Mark Turner")
