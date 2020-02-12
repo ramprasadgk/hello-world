@@ -9,6 +9,8 @@
                     // log.info 'Starting' 
 
                 steps{
+                    
+                    script{
                     echo new GetCommitInfo().isBranchIndexingCause().toString()
                     
                     if (new GetCommitInfo().isBranchIndexingCause()){
@@ -23,6 +25,7 @@
                     //echo prime.parallelize(5)
                     //echo prime.parallelize(2)
                     //echo prime.parallelize(4)
+                    }
                 }
                 
             }
