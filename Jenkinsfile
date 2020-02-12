@@ -10,6 +10,11 @@
 
                 steps{
                     echo new GetCommitInfo().isBranchIndexingCause().toString()
+                    
+                    if (new GetCommitInfo().isBranchIndexingCause()){
+                        currentBuild.result = 'ABORT'
+                        return
+                    }
                 
                     //echo my("Mark Turner")
                     // or
